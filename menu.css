@@ -1,5 +1,8 @@
 
-    nav{
+   body{
+     margin: 0 auto;
+   }
+   nav{
     	font-size: 12pt;
     	font-family: 'PT Sans', Arial, Sans-serif;
     	position: relative;
@@ -57,7 +60,7 @@
         font-weight:normal;
       }
       .menu {
-       width: 5000px;
+       width: 100%;
        height: 50px;
        text-align: center;
        max-width: 100%;
