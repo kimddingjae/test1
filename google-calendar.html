@@ -40,11 +40,6 @@
           window.open(arg.event.url, 'google-calendar-event', 'width=700,height=600');
 
           arg.jsEvent.preventDefault() // don't navigate in main tab
-        },
-
-        loading: function (bool) {
-          document.getElementById('loading').style.display =
-            bool ? 'block' : 'none';
         }
 
       });
@@ -93,23 +88,9 @@
       margin: 0 auto;
     }
   </style>
-
 </head>
 
 <body>
-  <div class="menu">
-    <nav class="clearfix">
-      <ul class="clearfix">
-        <li><a href="index.html">장부</a></li>
-        <!--""<-여기 부분에 URL 작성하면 됨-->
-        <li><a href="google-calendar.html">달력</a></li>
-        <li><a href="photo.html">사진들</a></li>
-      </ul>
-      <a id="pull" href="#"></a>
-    </nav>
-  </div>
-  <div id='loading'>loading...</div>
-
   <div id='calendar' style="margin-top: 20px;"></div>
 
 </body>
